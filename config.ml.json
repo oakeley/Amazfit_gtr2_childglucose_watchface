@@ -96,15 +96,7 @@
 		  "x": 5,
 		  "y": 0
 		}
-	}, 
-	{
-		"condition":"bgVal > 25 && bgVal <= 54",
-		"image":"img/1.png",
-		"position": {
-		  "x": 5,
-		  "y": 1
-		}
-	},   
+	},  
 	{
 		"condition":"bgVal > 3 && bgVal <= 4.5",
 		"image":"img/2.png",
@@ -114,15 +106,7 @@
 		}
 	},  
 	{
-		"condition":"bgVal > 54 && bgVal <= 80",
-		"image":"img/2.png",
-		"position": {
-		  "x": 5,
-		  "y": 1
-		}
-	},  
-	{
-		"condition":"bgVal > 4.5 && bgVal <= 8.9",
+		"condition":"bgVal > 4.5 && bgVal <= 8.5",
 		"image":"img/3.png",
 		"position": {
 		  "x": 5,
@@ -130,27 +114,11 @@
 		}
 	},
 	{
-		"condition":"bgVal > 80 && bgVal <= 161",
-		"image":"img/3.png",
-		"position": {
-		  "x": 5,
-		  "y": 1
-		}
-	},
-	{
-		"condition":"bgVal > 8.9 && bgVal <= 12",
+		"condition":"bgVal > 8.5 && bgVal <= 12",
 		"image":"img/4.png",
 		"position": {
 		  "x": 5,
 		  "y": 0
-		}
-	},
-	{
-		"condition":"bgVal > 161 && bgVal <= 216",
-		"image":"img/4.png",
-		"position": {
-		  "x": 5,
-		  "y": 1
 		}
 	},
 	{
@@ -159,14 +127,6 @@
 		"position": {
 		  "x": 5,
 		  "y": 0
-		}
-	},
-	{
-		"condition":"bgVal > 216",
-		"image":"img/5.png",
-		"position": {
-		  "x": 5,
-		  "y": 1
 		}
 	}
   ],

@@ -90,42 +90,42 @@
   },
   "condition_images":[
 	{
-		"condition":"bgVal <= 50",
+		"condition":"'LOW' === bgVal || bgVal <= 54",
 		"image":"img/1.png",
 		"position": {
-		  "x": 1,
+		  "x": 5,
 		  "y": 1
 		}
 	},  
 	{
-		"condition":"bgVal > 50 && bgVal <= 70",
+		"condition":"bgVal > 54 && bgVal <= 80",
 		"image":"img/2.png",
 		"position": {
-		  "x": 1,
+		  "x": 5,
 		  "y": 1
 		}
 	},  
 	{
-		"condition":"bgVal > 70 && bgVal <= 160",
+		"condition":"bgVal > 80 && bgVal <= 161",
 		"image":"img/3.png",
 		"position": {
-		  "x": 1,
+		  "x": 5,
 		  "y": 1
 		}
 	},
 	{
-		"condition":"bgVal > 160 && bgVal <= 220",
+		"condition":"bgVal > 161 && bgVal <= 216",
 		"image":"img/4.png",
 		"position": {
-		  "x": 1,
+		  "x": 5,
 		  "y": 1
 		}
 	},
 	{
-		"condition":"bgVal > 220",
+		"condition":"'HIGH' === bgVal || bgVal > 216",
 		"image":"img/5.png",
 		"position": {
-		  "x": 1,
+		  "x": 5,
 		  "y": 1
 		}
 	}
