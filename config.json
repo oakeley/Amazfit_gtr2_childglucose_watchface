@@ -8,37 +8,37 @@
   "use_custom_arrows": false,
   "resource_to_replace": 1,
   "arrow_position": {
-    "x": 95,
-    "y": 120
+    "x": 210,
+    "y": 10
   },
   "bg_value_text": {
     "color_high": "#ffffa0a0",
     "color_low": "#ff8bbbff",
     "position": {
-      "x": 256,
-      "y": 156
+      "x": 0,
+      "y": 140
     },
     "text_pattern": "$value",
     "text_settings": {
       "font_family": "Roboto-Bold",
       "font_size": 51,
       "stroke_width": 2,
-      "text_align": "right",
+      "text_align": "center",
       "text_scale": 0.88,
       "text_style": "bold"
     }
   },
   "delta_text": {
     "position": {
-      "x": 208,
-      "y": 133
+      "x": 0,
+      "y": 170
     },
-    "text_pattern": "$value at $time",
-    "outdated_text_pattern": "$value $time ago",
+    "text_pattern": "$value",
+    "outdated_text_pattern": "$value",
     "text_settings": {
       "font_family": "Roboto-Regular",
       "font_size": 24,
-      "text_align": "left"
+      "text_align": "center"
     }
   },
   "graph": {
@@ -61,19 +61,6 @@
 	  "text_style": "bold",
       "font_size": 25,
       "text_align": "right"
-    }
-  },
-  "treatment_text": {
-    "position": {
-      "x": 208,
-      "y": 164
-    },
-    "text_pattern": "$value at $time",
-    "outdated_text_pattern": "$value $time ago",
-    "text_settings": {
-      "font_family": "Roboto-Regular",
-      "font_size": 24,
-      "text_align": "left"
     }
   },
   "no_readings_text": {
